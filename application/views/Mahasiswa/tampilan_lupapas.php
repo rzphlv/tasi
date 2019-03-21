@@ -13,14 +13,49 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="<?php base_url() ?>assets/font/sanspro.css">
 </head>
+
+<!-- ADD THE CLASS layout-boxed TO GET A BOXED LAYOUT -->
+<style type="text/css">
+            #latarbelakang {
+                background-image: url('http://localhost/mtageo/assets/dist/img/bacground.jpg');
+                background-repeat: repeat;
+            }
+        </style>
+<body id="latarbelakang" class="latarbelakang hold-transition skin-blue layout-boxed sidebar-mini">
+<!-- Site wrapper -->
+<div>
+ &nbsp
+</div>
+<div class="wrapper">
+ <div>
+  &nbsp
+ </div>
+ <header class="main-header">
+  <div class="container base">
+    <div class="container">
+        <div class="row ">
+          <div class="col-md-1">
+              <a href="<?php base_url() ?>">
+                <img src="<?php base_url() ?>assets/dist/img/logo-itera-oke.png" width="70px" style="margin-bottom:10px; ">
+              </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Sistem Informasi Tugas Akhir</h3>
+            <h5>Teknik Sipil</h5>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?php base_url() ?>Beranda"><b>Forgot </b>Password</a>
+    <a href="<?php base_url() ?>Beranda"><b>LUPA PASSWORD </b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Enter your email address and we'll send you your username and a link to reset your password.</p>
+    <p class="login-box-msg">Masukan alamat email anda dan kami akan mengirimkan link untuk mereset password anda.</p>
 
     <form action="forgot-password" method="post">
 	<input type="hidden" name="_token" value="2v49hmejLdOjUMoJ2TbD4MqaTetD3aXp33v2ktnx">
@@ -31,14 +66,14 @@
       <div class="row">
         <div class="col-xs-5 pull-right">
           <button type="submit" class="btn btn-primary btn-block btn-flat">
-           <i class="fa fa-send"></i>&nbspSend Code
+           <i class="fa fa-send"></i>&nbspKirim Kode
           </button>
         </div>
         <div class="col-xs-6">
          <div class="text-left">
           <a href="<?php echo base_url();?>Login" class="btn bg-yellow btn-block btn-flat">
            <i class="fa fa-chevron-left"></i>
-           Back to Login
+           Kembali ke Login
           </a>
          </div>
         </div>

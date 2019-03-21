@@ -12,6 +12,41 @@
   <link rel="stylesheet" href="<?php base_url() ?>assets/plugins/iCheck/square/blue.css">
   <link rel="stylesheet" href="<?php base_url() ?>assets/font/sanspro.css">
 </head>
+
+<!-- ADD THE CLASS layout-boxed TO GET A BOXED LAYOUT -->
+<style type="text/css">
+            #latarbelakang {
+                background-image: url('http://localhost/mtageo/assets/dist/img/bacground.jpg');
+                background-repeat: repeat;
+            }
+        </style>
+<body id="latarbelakang" class="latarbelakang hold-transition skin-blue layout-boxed sidebar-mini">
+<!-- Site wrapper -->
+<div>
+ &nbsp
+</div>
+<div class="wrapper">
+ <div>
+  &nbsp
+ </div>
+ <header class="main-header">
+  <div class="container base">
+    <div class="container">
+        <div class="row ">
+          <div class="col-md-1">
+              <a href="<?php base_url() ?>">
+                <img src="<?php base_url() ?>assets/dist/img/logo-itera-oke.png" width="70px" style="margin-bottom:10px; ">
+              </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Sistem Informasi Tugas Akhir</h3>
+            <h5>Teknik Sipil</h5>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
@@ -19,13 +54,19 @@
   </div>
 
   <div class="register-box-body">
-    <p class="login-box-msg">Register a new membership</p>
+    <p class="login-box-msg">Masukan nama, NIM, email dan password </p>
 
     <form action="../../index.html" method="post" onsubmit="return cekform()">
       <div class="form-group has-feedback">
-        <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required="">
+        <input type="text" name="name" id="name" class="form-control" placeholder="Nama" required="">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
+
+       <div class="form-group has-feedback">
+        <input type="text" name="nim" id="nim" class="form-control" placeholder="NIM" required="">
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+      </div>
+
       <div class="form-group has-feedback">
         <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -34,18 +75,8 @@
         <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
-      <div class="form-group has-feedback">
-        <input type="password" name="rpassword" id="rpassword" class="form-control" placeholder="Retype password" required="">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
-      </div>
-      <div class="row">
-        <div class="col-xs-8">
-          <div class="checkbox icheck">
-            <label>
-              <input type="checkbox">&nbsp&nbspI agree to the <a href="#">terms</a>
-            </label>
-          </div>
-        </div>
+      
+      
         <!-- /.col -->
         <div class="col-xs-4">
           <button type="submit" class="btn bg-green btn-block btn-flat">
@@ -57,16 +88,7 @@
       </div>
     </form>
 
-    <div class="social-auth-links text-center">
-      <p>- OR -</p>
-      <div class="text-left">
-       <a href="<?php echo base_url();?>Login" class="btn bg-yellow btn-block btn-flat">
-        <i class="fa fa-chevron-left"></i> &nbsp &nbsp
-        I already have a membership
-       </a>
-      </div>
-    </div>
-  </div>
+  
   <!-- /.form-box -->
 </div>
 <!-- /.register-box -->

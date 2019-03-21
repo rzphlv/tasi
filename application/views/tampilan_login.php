@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MtaGeo | Log in</title>
+  <title>Log In Mahasiswa</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="<?php base_url() ?>assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php base_url() ?>assets/font-awesome/css/font-awesome.min.css">
@@ -13,14 +13,50 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="<?php base_url() ?>assets/font/sanspro.css">
 </head>
+
+<!-- ADD THE CLASS layout-boxed TO GET A BOXED LAYOUT -->
+<style type="text/css">
+            #latarbelakang {
+                background-image: url('http://localhost/mtageo/assets/dist/img/bacground.jpg');
+                background-repeat: repeat;
+            }
+        </style>
+<body id="latarbelakang" class="latarbelakang hold-transition skin-blue layout-boxed sidebar-mini">
+<!-- Site wrapper -->
+<div>
+ &nbsp
+</div>
+<div class="wrapper">
+ <div>
+  &nbsp
+ </div>
+ <header class="main-header">
+  <div class="container base">
+    <div class="container">
+        <div class="row ">
+          <div class="col-md-1">
+              <a href="<?php base_url() ?>">
+                <img src="<?php base_url() ?>assets/dist/img/logo-itera-oke.png" width="70px" style="margin-bottom:10px; ">
+              </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Sistem Informasi Tugas Akhir</h3>
+            <h5>Teknik Sipil</h5>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?php base_url() ?>Beranda"><b>Login </b>MtaGeo</a>
+    <a href="<?php base_url() ?>Beranda"><b>LOGIN USER</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">Masukan Email dan Password</p>
 
     <form action="../../index2.html" method="post" onsubmit="return cekform();">
       <div class="form-group has-feedback">
@@ -45,7 +81,7 @@
         <div class="col-xs-4">
           <button type="submit" class="btn btn-primary btn-block btn-flat">
            <i class="fa fa-sign-in"></i>&nbsp
-           Sign In
+           Masuk
           </button>
         </div>
         <!-- /.col -->
@@ -53,21 +89,21 @@
     </form>
 
     <div class="text-center">
-      <p>- OR -</p>
+      <p>- ATAU -</p>
     </div>
     <div class="row">
       <div class="col-xs-8">
        <div class="text-left">
-        <a href="<?php echo base_url();?>Lupapas" class="btn bg-red btn-block btn-flat">
+        <a href="<?php echo base_url() ?>Lupapas" class="btn bg-red btn-block btn-flat">
          <i class="fa fa-key"></i>
-         I Forgot My Password
+         Lupa Password
         </a>
        </div>
       </div>
       <!-- /.col -->
       <div class="col-xs-4">
        <div class="text-right">
-        <a href="<?php echo base_url();?>Register"  class="btn bg-green btn-block btn-flat">
+        <a href="<?php base_url() ?>Register"  class="btn bg-green btn-block btn-flat">
          <i class="fa fa-user"></i>&nbsp
          Register
         </a>
@@ -114,3 +150,6 @@
  </script>
 </body>
 </html>
+
+
+
