@@ -51,16 +51,16 @@
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?php echo base_url('profiledosen')?>" class="nav-link">
               <i class="menu-icon mdi mdi-table"></i>PROFILE DOSEN
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?php echo base_url('sop')?>" class="nav-link">
               <i class="mdi mdi-elevation-rise"></i>SOP</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?php echo base_url('faq')?>" class="nav-link">
               <i class="mdi mdi-bookmark-plus-outline"></i>FAQ</a>
           </li>
         </ul>
@@ -251,10 +251,10 @@
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php base_url() ?>pages/ui-features/buttons.html">Alur</a>
+                  <a class="nav-link" href="<?php echo base_url('alur') ?>">Alur</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php base_url() ?>pages/ui-features/typography.html">Hak & Kewajiban</a>
+                  <a class="nav-link" href="<?php echo base_url('hakdankewajiban') ?>">Hak & Kewajiban</a>
                 </li>
               </ul>
             </div>
