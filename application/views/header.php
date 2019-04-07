@@ -266,13 +266,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php base_url() ?>pages/charts/chartjs.html">
+            <a class="nav-link" href="<?php echo base_url('referensi') ?>">
               <i class="menu-icon mdi mdi-chart-line"></i>
               <span class="menu-title">Refrensi T.A</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php base_url() ?>pages/tables/basic-table.html">
+            <a class="nav-link" href="<?php echo base_url('mahasiswa_ta') ?>">
               <i class="menu-icon mdi mdi-table"></i>
               <span class="menu-title">Mahasiswa T.A</span>
             </a>
