@@ -10,7 +10,7 @@
                     <p class="gde-text">
                     <a href="http://tg.itera.ac.id/wp-content/uploads/2017/12/Diagram-Alir-Tugas-Akhir.pdf" class="gde-link">Download (PDF, 14KB)
                     </a>
-                    </p>                    
+                </p>                    
             </div>
         </div>
     </div>

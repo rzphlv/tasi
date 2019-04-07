@@ -280,26 +280,18 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
               <i class="menu-icon mdi mdi-restart"></i>
-              <span class="menu-title">Setting</span>
+              <span class="menu-title">Login & Register</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php base_url() ?>pages/samples/blank-page.html"> Blank Page </a>
+                  <a class="nav-link" href="<?php echo base_url('login') ?>"> Login </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php base_url() ?>pages/samples/login.html"> Login </a>
+                  <a class="nav-link" href="<?php echo base_url('register') ?>"> Register </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?php base_url() ?>pages/samples/register.html"> Register </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?php base_url() ?>pages/samples/error-404.html"> 404 </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?php base_url() ?>pages/samples/error-500.html"> 500 </a>
-                </li>
+                
               </ul>
             </div>
           </li>
