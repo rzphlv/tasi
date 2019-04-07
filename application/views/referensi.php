@@ -10,7 +10,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -27,7 +27,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -46,7 +46,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -63,7 +63,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -83,7 +83,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -100,7 +100,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -121,7 +121,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -138,7 +138,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -159,7 +159,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>
@@ -176,7 +176,7 @@
                         <br>
                                     <a href="http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" class="ep_document_link">Download (19Kb)</a>
                                     
-                                    | <a href="http://digilib.unila.ac.id/7591/2.haslightboxThumbnailVersion/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
+                                    | <a href="//docs.google.com/viewer?url=http://digilib.unila.ac.id/7591/2/2.Abstract.pdf" rel="lightbox[docs] nofollow" title="
 
                         <!-- document citation -->
                         <span class=&quot;ep_document_citation&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:cite=&quot;http://eprints.org/ep3/citation&quot; xmlns:epc=&quot;http://eprints.org/ep3/control&quot;>

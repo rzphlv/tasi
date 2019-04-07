@@ -61,14 +61,14 @@
 /*css bagian gambar itera dan teks sampingnya*/
 .atas .row{
 	margin-bottom: -20px;
-	margin-top: -5px;
+	margin-top: -15px;
 }
 .atas .row .col-md-2 a img{
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-right: 0px;
 	margin-bottom: 30px;
-	width: 130px;
+	width: 110px;
 }
 .atas .row .col-md-6{
 	margin-top: 55px;

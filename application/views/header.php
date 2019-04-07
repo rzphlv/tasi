@@ -23,13 +23,13 @@
 <div class="row">
   
 <div class="col-md-2">
-  <a href>
+  <a>
     <img src="<?php base_url() ?>images/logoitera.png" >
   </a>  
 </div>
 <div class="col-md-6">
     <h1> Sistem Informasi Tugas Akhir
-    <br>Program Study Teknik Sipil</br></h1>
+    <br>Program Studi Teknik Sipil</br></h1>
     <h4>" Civil Engineering Department-Institut Teknologi Sumatera "</h4>
 </div>
 </div>
@@ -312,8 +312,8 @@
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
           <div class="container-fluid clearfix">
-            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
-              <a href="http://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2019
+              <a>Kelompok 4</a>. All rights reserved.</span>
             <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with
               <i class="mdi mdi-heart text-danger"></i>
             </span>

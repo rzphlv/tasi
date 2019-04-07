@@ -11,23 +11,23 @@
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">NIM</label>
-    <input type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan NIM">
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan NIM">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Angkatan</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan tahun angkatan">
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan tahun angkatan">
   </div>
    <div class="form-group">
     <label for="exampleInputEmail1">Program Studi</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan program studi">
+    <input type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan program studi">
   </div>
     <div class="form-group">
     <label for="exampleInputEmail1">Jurusan</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan program jurusan">
+    <input type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan program jurusan">
   </div>
    <div class="form-group">
     <label for="exampleInputEmail1">Topik Tugas Akhir</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan topik tugas akhir">
+    <input type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan topik tugas akhir">
   </div>
  <div class="radio-group">
    <label for="exampleInputEmail1">Pilihan Dosen pembimbing :</label><br>

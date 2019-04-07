@@ -11,7 +11,7 @@
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1">NIM</label>
-          <input type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan NIM">
+          <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan NIM">
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Konsentrasi</label>
