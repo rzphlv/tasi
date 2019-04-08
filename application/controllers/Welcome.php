@@ -5,6 +5,7 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$isi['konten'] = 'beranda';
+		$this->load->view('header', $isi);
 	}
 }
