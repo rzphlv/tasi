@@ -25,7 +25,7 @@
  <div class="radio-group">
    <label for="exampleInputEmail1">Pilihan Dosen pembimbing :</label><br>
     <input type="radio" name="dosen" value="male" checked> Dr. Ir. Rahayu Sulistyorini, M.T.<br>
-  <input type="radio" name="dosen" value="female"> Bernadhita C. Marina, S.T, M.T.>
+  <input type="radio" name="dosen" value="female"> Bernadhita C. Marina, S.T, M.T.<br>
   <input type="radio" name="dosen" value="other"> Winny Novalina, S.T, M.T.<br>
   <input type="radio" name="dosen" value="other"> Syahidus Syuhada, S.T, M.T.	 
   </div>
