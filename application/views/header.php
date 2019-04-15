@@ -42,26 +42,26 @@
     <nav class="navbar default-layout col-lg-12 col-12 p-0 ">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
         <a class="navbar-brand brand-logo">
-          Tugas Akhir
+          <img src="<?php base_url() ?>images/iteras1.png" alt="logo" />
         </a>
-        
+        <a class="navbar-brand brand-logo-mini">
+          <img src="<?php base_url() ?>images/logo-mini.svg" alt="logo" />
+        </a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
           <li class="nav-item">
             <a href="<?php echo base_url('profiledosen')?>" class="nav-link">
-            <h6><i class="menu-icon mdi mdi-table"></i>PROFILE DOSEN</h6>
+              <i class="menu-icon mdi mdi-table"></i>PROFILE DOSEN
             </a>
           </li>
           <li class="nav-item">
             <a href="<?php echo base_url('sop')?>" class="nav-link">
-            <h6><i class="mdi mdi-elevation-rise"></i>SOP</h6>
-            </a>
+              <i class="mdi mdi-elevation-rise"></i>SOP</a>
           </li>
           <li class="nav-item">
             <a href="<?php echo base_url('faq')?>" class="nav-link">
-            <h6>  <i class="mdi mdi-bookmark-plus-outline"></i>FAQ</h6>
-            </a>
+              <i class="mdi mdi-bookmark-plus-outline"></i>FAQ</a>
           </li>
         </ul>
         <ul class="navbar-nav navbar-nav-right">
