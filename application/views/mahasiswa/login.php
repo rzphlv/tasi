@@ -26,11 +26,11 @@
         <div class="row w-100">
           <div class="col-lg-4 mx-auto">
             <div class="auto-form-wrapper">
-              <form action="#">
+              <form action=""<?php echo base_url('beranda') ?>" method="post" onsubmit="return cekform();">
                 <div class="form-group">
-                  <label class="label">Username</label>
+                  <label class="label">Email</label>
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Username">
+                    <input type="text" id="email" class="form-control" placeholder="Email">
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -41,7 +41,7 @@
                 <div class="form-group">
                   <label class="label">Password</label>
                   <div class="input-group">
-                    <input type="password" class="form-control" placeholder="*********">
+                    <input type="password" id="password" class="form-control" placeholder="*********">
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -59,10 +59,6 @@
                     </label>
                   </div>
                   <a href="#" class="text-small forgot-password text-black">Forgot Password</a>
-                </div>
-                <div class="form-group">
-                  <button class="btn btn-block g-login">
-                    <img class="mr-3" src="<?php base_url() ?>images/file-icons/icon-google.svg" alt="">Log in with Google</button>
                 </div>
                 <div class="text-block text-center my-3">
                   <span class="text-small font-weight-semibold">Not a member ?</span>
@@ -97,6 +93,25 @@
   <!-- inject:js -->
   <script src="<?php base_url() ?>js/off-canvas.js"></script>
   <script src="<?php base_url() ?>js/misc.js"></script>
+  
+  <script type="text/javascript">
+ function cekform()
+ {
+  if (!$("#email").val())
+  {
+   alert('Maaf email tidak boleh kosong');
+   $("#email").focus();
+   return false;
+  }
+
+  if (!$("#password").val())
+  {
+   alert('Maaf password tidak boleh kosong');
+   $("#password").focus();
+   return false;
+  }
+ }
+
   <!-- endinject -->
 </body>
 
