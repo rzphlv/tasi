@@ -124,7 +124,7 @@
                             Herman Beck
                           </td>
                           <td>
-                            14116072
+                            21116001
                           </td>
                           <td>
                             2016
@@ -144,11 +144,11 @@
                             Messsy Adam
                           </td>
                           <td>
-                           141160958
+                          21116002
                             </div>
                           </td>
                           <td>
-                            2009
+                            2016
                           </td>
                           <td class="text-success"> batuan
                             <i class="mdi mdi-arrow-up"></i>
@@ -165,10 +165,10 @@
                             John Richards
                           </td>
                           <td>
-                           14117689
+                          21116003
                           </td>
                           <td>
-                            1998
+                            2016
                           </td>
                           <td class="text-danger"> lava
                             <i class="mdi mdi-arrow-down"></i>
@@ -185,10 +185,10 @@
                             Peter Meggik
                           </td>
                           <td>
-                           13456678
+                          21116004
                           </td>
                           <td>
-                            1944
+                            2016
                           </td>
                           <td class="text-danger"> NKRI
                             <i class="mdi mdi-arrow-down"></i>
@@ -205,10 +205,10 @@
                             Edward
                           </td>
                           <td>
-                           11987767
+                          21116005
                           </td>
                           <td>
-                            112M
+                            2016
                           </td>
                           <td class="text-success"> barbarian
                             <i class="mdi mdi-arrow-up"></i>
@@ -225,10 +225,10 @@
                             Henry Tom
                           </td>
                           <td>
-                           11908876
+                          21116006
                           </td>
                           <td>
-                            2310
+                            2015
                           </td>
                           <td class="text-danger"> neuron
                             <i class="mdi mdi-arrow-down"></i>
