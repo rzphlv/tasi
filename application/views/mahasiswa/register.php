@@ -115,6 +115,12 @@
    $("#rpassword").focus();
    return false;
   }
+  if ($("#password").val() != $("#rpassword").val())
+  {
+   alert('Maaf pengulangan password harus sama');
+   $("#rpassword").focus();
+   return false;
+  }
  }
  </script>
 </body>
