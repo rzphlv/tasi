@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Star Admin Free Bootstrap Admin Dashboard Template</title>
+  <title>Login</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="<?php base_url() ?>assets/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="<?php base_url() ?>assets/css/vendor.bundle.base.css">
@@ -26,11 +26,11 @@
         <div class="row w-100">
           <div class="col-lg-4 mx-auto">
             <div class="auto-form-wrapper">
-              <form action=""<?php echo base_url('beranda') ?>" method="post" onsubmit="return cekform();">
+              <form action="<?php echo base_url('')?>" method="post" onsubmit="return cekform();">
                 <div class="form-group">
                   <label class="label">Email</label>
                   <div class="input-group">
-                    <input type="text" id="email" class="form-control" placeholder="Email">
+                    <input type="email" id="email" name='email' class="form-control" placeholder="....@student.itera.ac.id">
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -41,7 +41,7 @@
                 <div class="form-group">
                   <label class="label">Password</label>
                   <div class="input-group">
-                    <input type="password" id="password" class="form-control" placeholder="*********">
+                    <input type="password" id="password" name='password' class="form-control" placeholder="*********">
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -58,7 +58,6 @@
                       <input type="checkbox" class="form-check-input" checked> Keep me signed in
                     </label>
                   </div>
-                  <a href="#" class="text-small forgot-password text-black">Forgot Password</a>
                 </div>
                 <div class="text-block text-center my-3">
                   <span class="text-small font-weight-semibold">Not a member ?</span>
@@ -77,7 +76,7 @@
                 <a href="#">Terms</a>
               </li>
             </ul>
-            <p class="footer-text text-center">copyright © 2018 Bootstrapdash. All rights reserved.</p>
+            <p class="footer-text text-center">copyright © 2018 Kelompok 4. All rights reserved.</p>
           </div>
         </div>
       </div>
@@ -111,7 +110,7 @@
    return false;
   }
  }
-
+ </script>
   <!-- endinject -->
 </body>
 

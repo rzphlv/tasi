@@ -90,6 +90,48 @@
   <script src="<?php base_url() ?>js/off-canvas.js"></script>
   <script src="<?php base_url() ?>js/misc.js"></script>
   <!-- endinject -->
+
+  <script>
+  $(function () {
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass: 'iradio_square-blue',
+      increaseArea: '20%' /* optional */
+    });
+  });
+</script>
+<script type="text/javascript">
+ function cekform()
+ {
+  if (!$("#name").val())
+  {
+   alert('Maaf full name tidak boleh kosong');
+   $("#name").focus();
+   return false;
+  }
+
+  if (!$("#email").val())
+  {
+   alert('Maaf email tidak boleh kosong');
+   $("#email").focus();
+   return false;
+  }
+
+  if (!$("#password").val())
+  {
+   alert('Maaf password tidak boleh kosong');
+   $("#password").focus();
+   return false;
+  }
+
+  if (!$("#rpassword").val())
+  {
+   alert('Maaf pengulangan password tidak boleh kosong');
+   $("#rpassword").focus();
+   return false;
+  }
+ }
+ </script>
 </body>
 
 </html>
