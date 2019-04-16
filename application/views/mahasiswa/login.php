@@ -30,7 +30,7 @@
                 <div class="form-group">
                   <label class="label">Email</label>
                   <div class="input-group">
-                    <input type="email" id="email" name='email' class="form-control" placeholder="....@student.itera.ac.id">
+                    <input type="email" id="email" name='email' class="form-control" placeholder="....@student.itera.ac.id" required>
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -41,7 +41,7 @@
                 <div class="form-group">
                   <label class="label">Password</label>
                   <div class="input-group">
-                    <input type="password" id="password" name='password' class="form-control" placeholder="*********">
+                    <input type="password" id="password" name='password' class="form-control" placeholder="*********" required>
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
