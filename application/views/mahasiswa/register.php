@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Star Admin Free Bootstrap Admin Dashboard Template</title>
+  <title>Register</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="<?php base_url() ?>assets/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="<?php base_url() ?>assets/css/vendor.bundle.base.css">
@@ -27,10 +27,10 @@
           <div class="col-lg-4 mx-auto">
             <h2 class="text-center mb-4">Register</h2>
             <div class="auto-form-wrapper">
-              <form action="#">
+              <form action="<?php echo base_url('login')?>" method="post" onsubmit="return cekform();">
                 <div class="form-group">
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Username">
+                    <input type="email" id="email" name='email' class="form-control" placeholder="...@student.itera.ac.id" required>
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="form-group">
                   <div class="input-group">
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" id="password" name='password' class="form-control" placeholder="Password" required>
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="form-group">
                   <div class="input-group">
-                    <input type="password" class="form-control" placeholder="Confirm Password">
+                    <input type="password" id="rpassword" name='rpassword' class="form-control" placeholder="Confirm Password" required>
                     <div class="input-group-append">
                       <span class="input-group-text">
                         <i class="mdi mdi-check-circle-outline"></i>
@@ -61,7 +61,7 @@
                 <div class="form-group d-flex justify-content-center">
                   <div class="form-check form-check-flat mt-0">
                     <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" checked> I agree to the terms
+                      <input type="checkbox" class="form-check-input" required> I agree to the terms
                     </label>
                   </div>
                 </div>
@@ -91,25 +91,10 @@
   <script src="<?php base_url() ?>js/misc.js"></script>
   <!-- endinject -->
 
-  <script>
-  $(function () {
-    $('input').iCheck({
-      checkboxClass: 'icheckbox_square-blue',
-      radioClass: 'iradio_square-blue',
-      increaseArea: '20%' /* optional */
-    });
-  });
-</script>
+  
 <script type="text/javascript">
  function cekform()
  {
-  if (!$("#name").val())
-  {
-   alert('Maaf full name tidak boleh kosong');
-   $("#name").focus();
-   return false;
-  }
-
   if (!$("#email").val())
   {
    alert('Maaf email tidak boleh kosong');
