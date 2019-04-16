@@ -96,6 +96,13 @@
   <script type="text/javascript">
  function cekform()
  {
+  if (!$("#email").val() && !$("#password").val()) {
+    alert('Maaf email dan password tidak boleh kosong');
+    $("#email").focus();
+    $("#password").focus();
+    return false;
+  }
+
   if (!$("#email").val())
   {
    alert('Maaf email tidak boleh kosong');
@@ -109,6 +116,7 @@
    $("#password").focus();
    return false;
   }
+
  }
  </script>
   <!-- endinject -->
