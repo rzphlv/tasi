@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +19,13 @@
   <link rel="stylesheet" href="<?php base_url() ?>css/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="<?php base_url() ?>images/favicon.png" />
+
+  <style>
+    .putih {
+      color:white;
+    } 
+  </style>
+
 </head>
 
 <body>
@@ -25,6 +34,7 @@
       <div class="content-wrapper d-flex align-items-center auth auth-bg-1 theme-one">
         <div class="row w-100">
           <div class="col-lg-4 mx-auto">
+          <h2 class="text-center mb-4 putih" >Login</h2>
             <div class="auto-form-wrapper">
               <form action="<?php echo base_url('')?>" method="post" onsubmit="return cekform();">
                 <div class="form-group">
