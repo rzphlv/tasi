@@ -34,33 +34,6 @@
                             <li><a href="<?php echo base_url('admin/user/tambah') ?>">Tambah Referensi TA</a></li>  
                         </ul>                    
                     </li> 
-                    
-                      <!-- modul SOP -->
-                    <li>
-                        <a href="#"><i class="fa fa-book"></i> SOP<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="<?php echo base_url('admin/user') ?>">Data SOP</a></li>
-                            <li><a href="<?php echo base_url('admin/user/tambah') ?>">Tambah SOP</a></li>  
-                        </ul>                    
-                    </li> 
-                     <!-- modul diagram alir -->
-                    <li>
-                        <a href="#"><i class="fa fa-bar-chart-o"></i> Diagram Alir<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="<?php echo base_url('admin/user') ?>">Data Diagram Alir</a></li>
-                            <li><a href="<?php echo base_url('admin/user/tambah') ?>">Tambah Diagram Alir</a></li>  
-                        </ul>                    
-                    </li> 
-                      <!-- modul hak dan kewajiban -->
-                    <li>
-                        <a href="#"><i class="fa fa-edit"></i> Hak Dan Kewajiban<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="<?php echo base_url('admin/user') ?>">Data Hak dan Kewajiban</a></li>
-                            <li><a href="<?php echo base_url('admin/user/tambah') ?>">Tambah Hak dan Kewajiban</a></li>  
-                        </ul>                    
-                    </li> 
-
-
                 </ul>
                
             </div>
