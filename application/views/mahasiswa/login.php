@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Login</title>
+  <link rel="stylesheet" href="<?php base_url() ?>assets/loginstyle.css">
+  <link rel="stylesheet" href="<?php base_url() ?>assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php base_url() ?>assets/plugins/iCheck/square/blue.css">
+  <link rel="stylesheet" href="<?php base_url() ?>assets/font/sanspro.css">
+  <link rel="icon" type="image/png" href="<?php base_url() ?>assets/gambar/favicon.png">
   <!-- plugins:css -->
   <link rel="stylesheet" href="<?php base_url() ?>assets/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="<?php base_url() ?>assets/css/vendor.bundle.base.css">
@@ -19,13 +22,6 @@
   <link rel="stylesheet" href="<?php base_url() ?>css/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="<?php base_url() ?>images/favicon.png" />
-
-  <style>
-    .putih {
-      color:white;
-    } 
-  </style>
-
 </head>
 
 <body>
@@ -34,7 +30,6 @@
       <div class="content-wrapper d-flex align-items-center auth auth-bg-1 theme-one">
         <div class="row w-100">
           <div class="col-lg-4 mx-auto">
-          <h2 class="text-center mb-4 putih" >Login</h2>
             <div class="auto-form-wrapper">
               <form action="<?php echo base_url('')?>" method="post" onsubmit="return cekform();">
                 <div class="form-group">
@@ -62,7 +57,27 @@
                 <div class="form-group">
                   <button class="btn btn-primary submit-btn btn-block">Login</button>
                 </div>
-                <div class="form-group d-flex justify-content-between">
+                <div class="text-center">
+           <p><font color="#1a1816">- Atau -</font></p>
+						    </div>
+						    <div  class="form-group d-flex justify-content-center">
+						      <div class="col-xs-8">
+						       <div class="text-center " >
+						        
+                    <a href="<?php echo base_url();?>Lupapas" >
+						         <i class="text-black text-small" ></i>
+                     <div class="text-center">
+						         <p>Lupa Password</p>
+                     </div>
+						        </a>
+                    
+						       </div>
+                  </div>
+                  </div>
+                 
+						      <!-- /.col -->
+						     
+                <div class="form-group d-flex justify-content-center">
                   <div class="form-check form-check-flat mt-0">
                     <label class="form-check-label">
                       <input type="checkbox" class="form-check-input" checked> Keep me signed in
@@ -75,6 +90,7 @@
                 </div>
               </form>
             </div>
+            
             <ul class="auth-footer">
               <li>
                 <a href="#">Conditions</a>
