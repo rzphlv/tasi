@@ -4,13 +4,13 @@ class Model_Register extends CI_model {
     public function getdata($key)
     {
         $this->db->where('email',$key);
-        $hasil = $this->db->get('mahasiswa');
+        $hasil = $this->db->get('mahasiswaa');
         return $hasil;
     }
     public function getinsert($data)
     {
         $this->db->where('email');
-        $this->db->insert('mahasiswa',$data);
+        $this->db->insert('mahasiswaa',$data);
     }
     public function checkEmail($key) {
         if(!filter_var($key, FILTER_VALIDATE_EMAIL))
@@ -38,7 +38,7 @@ class Model_Register extends CI_model {
     public function cekmail($key)
     {
         $this->db->where('email',$key);
-        $hasil = $this->db->get('mahasiswa');
+        $hasil = $this->db->get('mahasiswaa');
         if ($hasil->num_rows()>0) {
             # code...
             foreach ($hasil->result() as $row)
@@ -53,4 +53,3 @@ class Model_Register extends CI_model {
         }
     }
 }
-

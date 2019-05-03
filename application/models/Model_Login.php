@@ -7,7 +7,7 @@ class Model_Login extends CI_model {
 		$pwd = md5($p);
 		$this->db->where('email',$u);
 		$this->db->where('password',$pwd);
-		$query = $this->db->get('mahasiswa');
+		$query = $this->db->get('mahasiswaa');
 		if($query->num_rows()>0)
 		{
 			foreach ($query->result() as $row)
@@ -30,4 +30,3 @@ class Model_Login extends CI_model {
 		}
 	}
 }
-
