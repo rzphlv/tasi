@@ -6,6 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Register</title>
+  <link rel="stylesheet" href="<?php base_url() ?>assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php base_url() ?>assets/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="<?php base_url() ?>assets/plugins/iCheck/square/blue.css">
+  <link rel="stylesheet" href="<?php base_url() ?>assets/font/sanspro.css">
+ 
   <!-- plugins:css -->
   <link rel="stylesheet" href="<?php base_url() ?>assets/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="<?php base_url() ?>assets/css/vendor.bundle.base.css">
@@ -61,7 +66,7 @@
                 <div class="form-group d-flex justify-content-center">
                   <div class="form-check form-check-flat mt-0">
                     <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" required> I agree to the terms
+                      <input type="checkbox" class="form-check-input" checked> I agree to the terms
                     </label>
                   </div>
                 </div>
@@ -91,10 +96,17 @@
   <script src="<?php base_url() ?>js/misc.js"></script>
   <!-- endinject -->
 
-  
 <script type="text/javascript">
  function cekform()
  {
+  var str = $("#email");
+  var n = str.includes("@student.itera.ac.id");
+  if (n == FALSE)
+  {
+   alert('bukan email itera');
+   $("#email").focus();
+   return false;
+  }
   if (!$("#email").val())
   {
    alert('Maaf email tidak boleh kosong');
@@ -125,4 +137,3 @@
  </script>
 </body>
 
-</html>
